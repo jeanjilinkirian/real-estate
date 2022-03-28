@@ -1,7 +1,7 @@
 # Real Estate
 
 
-This is a NodeJS project about Real Estate application that allows user to search and post different properties for sale. Users can also reach out to the agents to express their interest for a specific property.
+This is a NodeJS project about Real Estate application that allows users to search and post different properties for sale. Users can also reach out to the agents to express their interest for a specific property.
 
 
 
@@ -9,7 +9,7 @@ This is a NodeJS project about Real Estate application that allows user to searc
 ## Technologies Used
 
 
-1. The project uses NodeJS as it's main technology, so having NodeJS will be enough to run the project.
+1. The project uses NodeJS as its main technology, so having NodeJS will be enough to run the project.
 2. The web server is created using the express framework.
 3. MongoDB Atlas is used to host the database.
 4. The project uses mongoose to model the data on top of mongoDB.
@@ -30,8 +30,8 @@ Request:
 Optional Query Parameters:
 * sort: possible values can be 'price', '-price', 'price,-size', etc...
 Pass multiple values separated by commas to sort based on multiple fields. Pass "-" before the property name to make it in descending order.
-* fields: possible values can be 'name', 'name,price,size,location', etc...
-* limit: The field is used for pagination to set the maximum number of results per page. It's value is an integer to represent the number of the items listed per page
+* fields: this represents the fields that should be returned associated to the documents. Possible values can be 'name', 'name,price,size,location', etc...
+* limit: The field is used for pagination to set the maximum number of results per page. Its value is an integer to represent the number of the items listed per page
 * page: The field is used in pagination to provide the number of the page.
 * There could be other parameters which are the fields of the "properties" data model that can be used to filter the result based on certain criteria, for example: Filtering properties whose price is less than 700000$. 
 
